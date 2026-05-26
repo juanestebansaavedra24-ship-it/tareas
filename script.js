@@ -38,7 +38,8 @@ function agregarTarea() {
     eliminar.addEventListener('click', eliminarTarea);
   
     iconos.append(completar, eliminar);
-  
+    input.value = '';
+
     // Agregar la tarea a la lista.
     listaDeTareas.appendChild(tareaNueva);
   } else {
